@@ -1,5 +1,7 @@
 # MySOQL2 v1.2 — Salesforce SOQL Desktop Query Tool
 
+![Screenshot](https://raw.githubusercontent.com/amahasintunan/MySOQL2-mvn-releases/main/soql-app.png)
+
 A Java Swing REST/HTTP desktop query tool for Salesforce SOQL queries.
 
 ## What's in this package
