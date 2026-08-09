@@ -2,7 +2,9 @@
 
 ![Screenshot](screenshot.png)
 
-A Java Swing REST/HTTP desktop query tool for Salesforce SOQL queries.
+**MySOQL2** (My Salesforce Object Query Language) is a desktop application written in Java Swing that connects to Salesforce via HTTP APIs. It allows users to configure and persist connections to multiple Salesforce orgs. Serving as a GUI front end for SOQL, it empowers users to build SOQL queries either by entering them manually or using the built-in UI to generate statements, providing functionality similar to Salesforce Workbench.
+
+For more details on creating a Connected App in Salesforce for OAuth, refer to: https://help.salesforce.com/s/articleView?id=platform.ev_relay_create_connected_app.htm&type=5
 
 ## What's in this package
 
