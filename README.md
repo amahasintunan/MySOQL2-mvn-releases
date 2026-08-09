@@ -1,6 +1,6 @@
 # MySOQL2 v1.2 — Salesforce SOQL Desktop Query Tool
 
-![Screenshot](screenshot.png)
+![Screenshot](docs/screenshot.png)
 
 A Java Swing REST/HTTP desktop query tool for Salesforce SOQL queries.
 
