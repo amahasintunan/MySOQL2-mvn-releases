@@ -1,8 +1,8 @@
-# MySOQL — Salesforce SOQL Desktop Query Tool
+# MySOQL — Salesforce SOQL Query Tool
 
 <img width="1169" height="729" alt="Screenshot 2026-10-17 at 12 46 28 PM" src="https://github.com/user-attachments/assets/0c978656-2c16-4aba-8a70-cae3d5f0e1d2" />
 
-**MySOQL2** (My Salesforce Object Query Language) is a desktop application written in Java Swing that connects to Salesforce via HTTP APIs. It allows users to configure and persist connections to multiple Salesforce orgs. Serving as a GUI front end for SOQL, it empowers users to build SOQL queries either by entering them manually or using the built-in UI to generate statements, providing functionality similar to Salesforce Workbench.
+**MySOQL** (My Salesforce Object Query Language) is a desktop application written in Java Swing that connects to Salesforce via HTTP APIs. It allows users to configure and persist connections to multiple Salesforce orgs. Serving as a GUI front end for SOQL, it empowers users to build SOQL queries either by entering them manually or using the built-in UI to generate statements, providing functionality similar to Salesforce Workbench.
 
 For more details on creating a Connected App in Salesforce for OAuth, refer to: https://help.salesforce.com/s/articleView?id=platform.ev_relay_create_connected_app.htm&type=5
 
