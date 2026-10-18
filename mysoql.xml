@@ -12,6 +12,10 @@
         <translationLength>4096</translationLength> <!-- Translation limit of 4K characters (default 0 no limit)  -->
         <translationProvider>libretranslate</translationProvider> <!-- libretranslate (default) or google -->
         <translationUrl>http://localhost:5000/translate</translationUrl> <!-- translation endpoint -->
+        <!-- To use Google Cloud Translation instead:
+        <translationProvider>google</translationProvider>
+        <translationUrl>https://translation.googleapis.com/language/translate/v2</translationUrl>
+        -->
         <lcsd>tika</lcsd>                           <!-- lcsd oracle or tika (default tika)                       -->
         <browserPath>/opt/google/chrome/chrome</browserPath>
         <hostUrl>https://localhost:6101</hostUrl>
