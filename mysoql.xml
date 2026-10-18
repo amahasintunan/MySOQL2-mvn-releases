@@ -12,6 +12,13 @@
         <translationLength>4096</translationLength> <!-- Translation limit of 4K characters (default 0 no limit)  -->
         <lcsd>tika</lcsd>                           <!-- lcsd oracle or tika (default tika)                       -->
         <browserPath>/opt/google/chrome/chrome</browserPath>
+        <hostUrl>https://localhost:6101</hostUrl>
+        <apiVersion>v69.0</apiVersion>
+        <userId></userId>
+        <password></password>
+        <clientId></clientId>
+        <clientSecret></clientSecret>
+        <clientHeader>SfdcInternalQA/...</clientHeader>
         <connectTimeout>45</connectTimeout>         <!-- HTTP connection timeout in seconds                       -->
     </globalProps>
 </query>
