@@ -10,6 +10,8 @@
         <sampling>2000</sampling>                   <!-- sampling size (default 0 all rows)                       -->
         <refresh>0</refresh>                        <!-- refresh query every 0..60 seconds (default 0 no refresh) -->
         <translationLength>4096</translationLength> <!-- Translation limit of 4K characters (default 0 no limit)  -->
+        <translationProvider>libretranslate</translationProvider> <!-- libretranslate (default) or google -->
+        <translationUrl>http://localhost:5000/translate</translationUrl> <!-- translation endpoint -->
         <lcsd>tika</lcsd>                           <!-- lcsd oracle or tika (default tika)                       -->
         <browserPath>/opt/google/chrome/chrome</browserPath>
         <hostUrl>https://localhost:6101</hostUrl>
@@ -20,5 +22,6 @@
         <clientSecret></clientSecret>
         <clientHeader>SfdcInternalQA/...</clientHeader>
         <connectTimeout>45</connectTimeout>         <!-- HTTP connection timeout in seconds                       -->
+        <reveal>false</reveal>                      <!-- reveal clientId/clientSecret/accessToken on console       -->
     </globalProps>
 </query>
